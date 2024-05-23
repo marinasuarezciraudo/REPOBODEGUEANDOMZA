@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+}
+body {
+    text-align: center;
+    font-family: "Balsamiq Sans"
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+
+}
+.navbar{
+    display: flex;
+    min-width: 600px;
+    flex-direction: row;
+    margin-right: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
+
+}
+.navbar a {
+    display: flex;
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}  
+
+.navbar a:hover {
+    background-color: olivedrab;
+}
+.content-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.content-header {
+    height: 80vh;
+    background: url(imag/portada3.webp) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+} 
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+p{
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: darkolivegreen;
+    justify-content: center;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c39
+    color #fff;
+    background: #9c39;
+    font-size: 25px;
+    color: #fff;
+}
+
+.btn:hover {
+    background: none;
+}
+.btn-home {
+    display: flex;
+}
+.btn-home a {
+    margin: 10px;
+}
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Content-Product{
+    padding: 30px;
+    background-color: rgb(29, 29, 29);
+}
+.box-container{
+    display: flex;
+    justify-content:center;
+    flex-wrap:nowrap;
+    text-align: center;
+    
+}
+span {
+    color: darkolivegreen;
+    font-size: 18px;
+    font-weight: 100;
+    padding-top: 15px;
+}
+h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+.content-contact {
+    background: url(imag/portada3.webp) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.icono{
+margin: 25px;
+font-size: 25px;
+}
+.content-suscript{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(32, 32, 32);
+}
+.content-susc{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.titlesus{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.content-susc form{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    margin: 15px;
+}
+.content-susc form .campo{
+    width: 100%;
+    padding: 15px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+    outline: 0px;
+}
+.content-susc form .btn-sub{
+    padding: 15px 15px;
+    border: none;
+    font-size: 16px;
+    border-radius: 0px 3px 3px 0px;
+    background-color: #9c39;
+    color: #fff;
+    cursor: pointer;
+    outline: 0px;
+}    
+@media (max-width: 600px){
+ .navbar a {
+   width: 100%;
+   justify-content: center;
+   height: 15px;
+   font-size: 15px;
+}  
+ .head{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+ }
+ .title{
+    font-size: 30px;
+ }
+ header{
+    height: 30vh;
+ }
+ p {
+    font-size: 15px;
+ }
+ .btn{
+    font-size: 15px;
+ } 
+ .box-container img{
+    height: 120px; width: 50%;
+ } 
+ .icono{
+    font-size: 18px;
+ } 
+ .titlesus{
+    font-size: 20px;
+ }
+ .content-suscript{
+    width: 100%;
+    height: 300px;
+ 
+}
+ .content-susc form{
+    width: 60%;
+}
+.content-susc form .campo{
+    width: 60%;
+    padding: 10px 10px;
+    font-size: 10px;
+    
+}
+.content-susc form .btn-sub{
+    padding: 10px 10px;
+    font-size: 10px;
+ }
+span{
+    font-size: 15px;
+}
+}
+
