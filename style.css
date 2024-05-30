@@ -35,8 +35,6 @@ header{
     flex-wrap: wrap;
     align-content: center;
     
-
-
 }
 .navbar a {
     display: flex;
@@ -74,6 +72,12 @@ header{
     text-transform: uppercase;
     color: #fff;
 }
+.class lamagia{
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: black;
+    justify-content: center;
+}
 p{
     margin-bottom: 40px;
     font-size: 25px;
@@ -93,7 +97,8 @@ p{
 }
 
 .btn:hover {
-    background: none;
+    color: black;
+    background: rgb(218, 113, 7);
 }
 .btn-home {
     display: flex;
