@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+}
+body {
+    text-align: center;
+    font-family: "Balsamiq Sans"
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+nav{
+    background-color:rgba(0, 0, 0, 0.39);
+    width: 100%;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+    font-size: 20px;
+
+}
+nav a:hover{
+    color:rgb(240, 163, 70) ;
+    background-color:black;
+
+}
+nav ul{
+    list-style: none;
+}
+.menu > li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+li ul{
+    display: none;
+}
+li:hover > ul{
+    display: block;
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    padding: 20px;
+}
+/*carrusel*/
+.carrusel{
+    width: 100%;
+    margin: auto 0;
+    overflow: hidden;
+}
+.carrusel ul{
+    display: flex;
+    padding: 0%;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.carrusel li{
+    width: 100%;
+    list-style: none;
+}
+.carrusel img{
+    width: 100%;
+}
+@keyframes slide {
+    0% {margin-left: 0;}
+    20%{margin-left: 0;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+}
+/*Experiencias enoturisticas*/
+.Sunset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.39);
+}
+.titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    font-size: 30px;
+    color: orange;
+    padding: 20px;
+
+}
+.imgsunset{
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+}
+.imgsunset:hover{
+    transform: scale(0.9);
+    border-radius: 6px;
+}
+.Visita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.39);
+} 
+.imgvisit{
+    width: 47%;
+    display: flex;
+    cursor: pointer;
+}
+.imgvisit:hover{
+    transform: scale(0.9);
+    border-radius: 6px;
+}
+.Restaurante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.39);
+}
+/*contacto y formulario de consulta*/
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono{
+    color: white;
+    padding: 30px;
+    font-size: 27px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    }
+    
+    .icono a{
+        text-decoration: none;
+        color: white;
+    }
+    .form{
+       
+        width: 50%;
+        height: 300px;
+        background: white;
+        color:  orange;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .form h2{
+    font-size: 25px;
+    margin: 20px;
+    margin-bottom: 10px;
+    }
+    .control{
+    width: 85%;
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 3px solid  rgb(240, 163, 70);
+    font-size: 20px;
+    }
+    .boton{
+    background: black;
+    padding:7px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid  rgb(240, 163, 70);
+    }
+    .boton:hover{
+    background: white;
+    color: rgb(240, 163, 70) ;
+    }
+    .contacto{
+        display: flexbox;
+        justify-content: space-evenly;
+        padding: 30px; 
+        background-color:rgba(0, 0, 0, 0.39);
+
+    }
+    .mapa{
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.39);
+    }
+    @media (max-width: 600px){
+    nav a{
+         font-size: 15px;
+    }    
+    .Sunset{
+        flex-direction: column;
+    }
+    .imgvisit{
+        width:100%;
+    }    
+    .Visita{
+     flex-direction: column;
+    }  
+    .Restaurante{
+        flex-direction: column;
+    }  
+    .icono{
+        font-size: 20px;
+    }    
+    .contacto{
+        padding: 10px;
+        flex-direction: column;
+    }   
+    .boton{
+        font-size: 10px;
+    } 
+    }
+       

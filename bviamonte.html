@@ -3,13 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>ViamontebyBodegueando</title>
 </head>
 <body>
     <header>
-        <h1>Bodega Viamonte</h1>
-        <a href="index.html" class="btn">Inicio</a>
+       
+                <nav>
+                    <div>
+                        <h1>Bodega Viamonte</h1>
+                    </div>
+                    <ul class="menu">
+                      <li><a href="index.html">Inicio</a></li>
+                      <li>
+                        <a href="#Experiencias"> Experiencias Enoturísticas</a>
+                        <ul>
+                            <li><a href="#Sunset">Sunset</a>
+                            <li><a href="#Visita">Visita y Degustación</a></li>
+                            <li><a href="#Restaurante">Restaurante</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#Contacto">Contacto</a></li>
+                      <li><a href="#Ubicacion">Ubicación</a></li>
+                    </ul>
+                    <div class="carrusel">
+                        <ul>
+                           <li>
+                               <img src="imag/viamonte3.jpg" alt="">
+                           </li>
+                           <li>
+                               <img src="imag/viamontep.jpg" alt="">
+                           </li>
+                           <li>
+                               <img src="imag/viamontepr.jpg" alt="">
+                           </li>
+                           <li>
+                               <img src="imag/viamonte1.jpg" alt="">
+                           </li>
+                        </ul>
+                    </div>
+                </nav>
+            
     </header>
+    <main>
+        <section>
+            <div class="titulos" id="Sunset">
+            <h2>Sunset</h2>
+             </div>
+             <div class="Sunset" >
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, fugit aliquid. Voluptates alias expedita perferendis magnam corrupti iste sint itaque doloremque, suscipit molestias ipsam, laborum incidunt reprehenderit qui odio eum?
+                </p>
+                <img src="imag/sunsetviamonte.jpg" alt="" class="imgsunset">
+            
+            </div>
+        </section>
+        <section>
+            <div class="titulos" id="Visita">
+            <h2>Visita y Degustación</h2>
+             </div>
+             <div class="Visita" >
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, fugit aliquid. Voluptates alias expedita perferendis magnam corrupti iste sint itaque doloremque, suscipit molestias ipsam, laborum incidunt reprehenderit qui odio eum?
+                </p>
+                <img src="imag/viamontedeg.jpg" alt="" class="imgvisit">
+            
+            </div>
+        </section>
+        <section>
+            <div class="titulos" id="Restaurante">
+            <h2>Restaurante</h2>
+             </div>
+             <div class="Restaurante" >
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, fugit aliquid. Voluptates alias expedita perferendis magnam corrupti iste sint itaque doloremque, suscipit molestias ipsam, laborum incidunt reprehenderit qui odio eum?
+                </p>
+                <img src="imag/viamonterestaurant.jpg" alt="" class="imgvisit">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div class="titulos" id="Contacto">
+            <h2>Contacto</h2>
+            </div>
+            <section class="contacto" >
+                <div class="icono">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+54 9 2613347637">+54 9 2613347637</a>
+                
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:turismo@viamontewinwry.com">turismo@viamontewinery.com</a>
+                </div>
+                <div class="form">
+                    <h2>Formulario de Consulta</h2>
+                    <input class="control" type="text" name="Nombre y Apellido" placeholder="Ingrese su Nombre y Apellido">
+                    <input class="control" type="Email" name="Email" placeholder="Ingrese su Email">
+                    <input class="control" type="text" name="Mensaje" placeholder="Ingrese su mensaje">
+                     <input class="boton" type="text" value="Enviar">
+                </div>
+            </section>
+             
+        </section>
+        <section>
+            <div class="titulos">
+            <h2>Ubicación</h2>
+             </div>
+             <div class="Ubicacion" id="Ubicacion">
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13381.479589818324!2d-68.885036!3d-33.020384!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0ab96db10c51%3A0xa3f30d0a3076db0e!2sBodega%20VIAMONTE!5e0!3m2!1ses-419!2sus!4v1719237184942!5m2!1ses-419!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </section>
+      
+    </footer>
     
 </body>
 </html>
