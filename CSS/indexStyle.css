@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+ } 
+
+body {
+    text-align: center;
+    font-family: "Balsamiq Sans"
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: black;
+    width: 100%;
+    z-index: 100%;
+
+}
+.navbar{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+    font-size: 20px;
+    width: 25%;
+
+}
+
+
+.navbar a:hover {
+    background-color: olivedrab;
+}
+.content-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.content-portada{
+    background: url(../imag/portada3.webp) no-repeat center;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+   
+}
+
+main{
+    background-color: rgb(32, 32, 32);
+    padding-bottom: 2rem;
+}
+.box img{
+    width: 500px;
+    height: 265px;
+    display: flex;
+    padding: 10px;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.lamagia{
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: black;
+    justify-content: center;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: darkolivegreen;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c39
+    color #fff;
+    background: #9c39;
+    font-size: 25px;
+    color: #fff;
+}
+
+.btn:hover {
+    color: black;
+    background: rgb(218, 113, 7);
+}
+
+.btn-home {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-home a {
+    margin: 10px;
+}
+
+.Content-Product{
+    padding: 4rem;
+    background-color: rgb(29, 29, 29);
+    min-height: 90vh;
+}
+
+.box-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center; 
+    flex-wrap: wrap;
+}
+
+span {
+    color: darkolivegreen;
+    font-size: 18px;
+    font-weight: 100;
+    padding-top: 15px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 15px;
+}
+
+.content-contact {
+    background: url(../imag/portada3.webp) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.icono{
+    margin: 25px;
+}
+
+.icono a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.content-suscript{
+    width: 100%;
+    min-height: 45vh;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-susc{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titlesus{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.content-susc form{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    margin: 15px;
+}
+
+.content-susc form .campo{
+    width: 100%;
+    padding: 15px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+    outline: 0px;
+}
+
+.content-susc form .btn-sub{
+    padding: 15px 15px;
+    border: none;
+    font-size: 16px;
+    border-radius: 0px 3px 3px 0px;
+    background-color: #9c39;
+    color: #fff;
+    cursor: pointer;
+    outline: 0px;
+}
+
+aside{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90vw;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #9c39;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.textPublicity{
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+}
+
+.product{
+    border: 1px solid gray;
+    width: 10rem;
+    height: 13rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.product h2, .product p, .product a{
+    font-size: 12px;
+}
+
+.product p{
+    font-weight: 700;
+}
+
+.product a{
+    font-weight: 700;
+    text-decoration: none;
+    color: blue;
+}
+
+@media (max-width: 600px){
+    .title{
+        font-size: 30px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 15px;
+    } 
+    .box img{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    } 
+    .box-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .icono{
+        font-size: 18px;
+    } 
+    .titlesus{
+        font-size: 20px;
+    }
+    .content-suscript{
+        width: 100%;
+        height: 300px;
+    
+    }
+    .content-susc form{
+        width: 60%;
+    }
+    .content-susc form .campo{
+        width: 60%;
+        padding: 10px 10px;
+        font-size: 10px;
+        
+    }
+    .content-susc form .btn-sub{
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+    span{
+        font-size: 15px;
+    }
+    aside{
+        justify-content: center;
+    }
+}

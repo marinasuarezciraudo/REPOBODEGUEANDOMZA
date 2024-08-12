@@ -3,91 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="JS/bianchi.js"></script>
-    <title>BianchibyBodegueando</title>
+    
+    <link rel="shortcut icon" href="./imag/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style2.css">
+    <title>Bianchi by Bodegueando</title>
 </head>
 <body>
     <header>
-
         <nav>
             <ul class="menu">
-            <li><a href="index.html">Inicio</a></li>
-            <li>
-                <a href="#Experiencias"> Experiencias Enoturísticas</a>
-                <ul>
-                   <li><a href="#Visita y Degustación">Visita y Deguatación</a></li>
-                   <li><a href="#enbici"> Viñedo en Bicicleta</a></li>
-                   <li><a href="#crea">Crea tu corte de vino</a></li>
-                   <li><a href="#picada">Picada y Vino</a></li>
-               </ul>
-            </li>
-            <li><a href="#Contacto">Contacto</a></li>
-            <li><a href="#Ubicacion">Ubicación</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li id="elementMenuFlotante">
+                    <a href="#Experiencias">Experiencias</a>
+                    <ul class="subMenu">
+                        <li><a href="#VisitayDegustacion">Visita y Degustación</a></li>
+                        <li><a href="#enbici"> Viñedo en Bicicleta</a></li>
+                        <li><a href="#crea">Crea tu corte de vino</a></li>
+                        <li><a href="#picada">Picada y Vino</a></li>
+                    </ul>
+                </li>
+                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="#Ubicacion">Ubicación</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <div class="titleBodega">
+            <h1>Bodega Bianchi</h1>
+        </div>
         <div class="bodega">
-            <img src="imag/bianchi 1.webp" alt="">
+            <img src="imag/bianchi 1.webp" alt="logo de bodegas Bianchi">
         </div>
         <div class="experiencias">
-           <h1>Experiencias Enoturísticas</h1>
+            <h2>Experiencias Enoturísticas</h2>
         </div>
-                <section id="Visita y Degustación" class="visita">
-                   <div>
-                      <img src="imag/degustacion.webp" alt="" class="img">
-                   </div>
-                   <div>
-                    <h1 >Visita y Degustación</h1>
-                      <p class="descripción">
-                       En esta experiencia recorreremos parte del viñedo, caminaremos por la bodega y aprenderemos sobre la elaboración de vinos y espumantes. Conoceremos los secretos que pasaron de generación en generación, la cultura transmitida por los trabajadores y la familia, en más de 90 años de historia de la bodega. Disfrutaremos una cata dirigida de la línea Famiglia Bianchi en la cava privada de la familia, sumando a la degustación nuestro espumante método tradicional.
-                      </p>
-                   </div>
-               </section>
-               <section id="enbici" class="bici">
-                  
-                    <div>
-                       <h1 >El Viñedo en Bicicleta</h1>
-                        <p class="descripción">
-                        ¡Una muy divertida experiencia! Recorreremos los viñedos en bicicleta, realizaremos una visita guiada a la bodega para conocer el área de elaboración de vinos, la cava de barricas y la bodega de Espumantes. Realizaremos una cata dirigida de la línea Famiglia Bianchi en la cava privada de la familia y degustaremos nuestro espumante método tradicional.
-                    </div>
-                    <div>
-                        <img src="imag/bici.webp" alt="" class="img">
-                     </div>
-                 
-               </section>
-
-         <section id="crea" class="crea">
-                <div>
-                    <img src="imag/corte.webp" alt="" class="img">
-                 </div>
-                 <div>
-                    <h1 >Crea tu corte de Vino</h1>
-                    <p class="descripción">
-                        Convertirnos en enólogo por un día y realizar nuestro propio corte de vino es posible. Nos encontraremos en la cúpula central para aprender sobre los diferentes cortes de vino, características y estilos. Mezclaremos, buscaremos, crearemos sin límites y elegiremos qué nos gusta. No es necesario contar con conocimientos previos. Recorreremos la bodega y degustaremos nuestro espumante, método tradicional. Como obsequio ¡una botella de uno de nuestros blends!
-                 </div>
-         </section>
-         <section id="picada" class="picada">
-             <div>
-                <h1 >Picada y Vino Vino</h1>
-                <p class="descripción">
-                    Sentarse a contemplar la hermosa vista panorámica de nuestro salón de turismo y disfrutar de exquisitas picadas de ahumados o quesos (veggie), acompañadas de dos copas de vino de nuestra línea Famiglia Bianchi. Solicitá el menú con las distintas opciones y costos en nuestra tienda.
-             </div>
-             <div>
-                <img src="imag/picada.jpg" alt="" class="img">
-             </div>
-         </section>
+        <section id="VisitayDegustacion" class="visita">
+            <div>
+                <img src="imag/degustacion.webp" alt="personas brindando" class="img">
+            </div>
+            <div class="text">
+                <h2>Visita y Degustación</h2>
+                <p class="descripción">En esta experiencia recorreremos parte del viñedo, caminaremos por la bodega y aprenderemos sobre la elaboración de vinos y espumantes. Conoceremos los secretos que pasaron de generación en generación, la cultura transmitida por los trabajadores y la familia, en más de 90 años de historia de la bodega. Disfrutaremos una cata dirigida de la línea Famiglia Bianchi en la cava privada de la familia, sumando a la degustación nuestro espumante método tradicional.</p>
+            </div>
+        </section>
+        <section id="enbici" class="bici">
+            <div class="text">
+                <h2>El Viñedo en Bicicleta</h2>
+                <p class="descripción">¡Una muy divertida experiencia! Recorreremos los viñedos en bicicleta, realizaremos una visita guiada a la bodega para conocer el área de elaboración de vinos, la cava de barricas y la bodega de Espumantes. Realizaremos una cata dirigida de la línea Famiglia Bianchi en la cava privada de la familia y degustaremos nuestro espumante método tradicional.
+            </div>
+            <div>
+                <img src="imag/bici.webp" alt="personas en bicicleta" class="img">
+            </div>        
+        </section>
+        <section id="crea" class="crea">
+            <div>
+                <img src="imag/corte.webp" alt="corte de vino" class="img">
+            </div>
+            <div class="text">
+                <h2>Crea tu corte de Vino</h2>
+                <p class="descripción">Convertirnos en enólogo por un día y realizar nuestro propio corte de vino es posible. Nos encontraremos en la cúpula central para aprender sobre los diferentes cortes de vino, características y estilos. Mezclaremos, buscaremos, crearemos sin límites y elegiremos qué nos gusta. No es necesario contar con conocimientos previos. Recorreremos la bodega y degustaremos nuestro espumante, método tradicional. Como obsequio ¡una botella de uno de nuestros blends!
+            </div>
+        </section>
+        <section id="picada" class="picada">
+            <div class="text">
+                <h2>Picada y Vino Vino</h2>
+                <p class="descripción">Sentarse a contemplar la hermosa vista panorámica de nuestro salón de turismo y disfrutar de exquisitas picadas de ahumados o quesos (veggie), acompañadas de dos copas de vino de nuestra línea Famiglia Bianchi. Solicitá el menú con las distintas opciones y costos en nuestra tienda.
+            </div>
+            <div>
+                <img src="imag/picada.jpg" alt="copas de vino" class="img">
+            </div>
+        </section>
     </main>
     <footer>
-        
-               <div class="contact" id="Contacto">
-                <h1>Contacto</h1>
-               </div>
-            <section class="contacto">
+        <div class="contact" id="Contacto">
+            <h2>Contacto</h2>
+        </div>
+        <section class="contacto">
+            <div>
                 <div class="icono">
                     <i class="fa-solid fa-phone"></i>
                     <a href="tel:+54 9 260 481 6963">+54 9 260 481 6963</a>
@@ -96,24 +90,27 @@
                     <i class="fa-solid fa-envelope"></i>
                     <a href="mailto:turismo@bodegasbianchi.com">turismo@bodegasbianchi.com</a>
                 </div>
-                <div class="form">
-                    <h2>Formulario de Consulta</h2>
-                    <input class="control" type="text" name="Nombre y Apellido" placeholder="Ingrese su Nombre y Apellido" id="nombre">
-                    <input class="control" type="Email" name="Email" placeholder="Ingrese su Email" id="email">
-                    <input class="control" type="text" name="Mensaje" placeholder="Ingrese su mensaje" id="mensaje">
-                     <input class="boton" type="text" value="Enviar">
-                </div>
-            </section>
-            <div class="ubicación" id="Ubicacion">
-                <h1>Ubicación</h1>
             </div>
-            <div class="mapa">
-                "<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7998353755574!2d-68.42473043710504!3d-34.583931005091664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9679a803b580fc7f%3A0x84595151765381ac!2sBodegas%20Bianchi!5e0!3m2!1ses-419!2sar!4v1716935464246!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>"
+            <div class="form">
+                <h2>Formulario de Consulta</h2>
+                <form action="" id="form-bbianchi">
+                    <input class="control" type="text" name="Nombre y Apellido" placeholder="Ingrese su Nombre y Apellido" id="nombre" required>
+                    <input class="control" type="email" name="Email" placeholder="Ingrese su Email" id="email" required>
+                    <textarea class="controlTextTarea" name="Mensaje" placeholder="Ingrese su mensaje" id="textareaMensaje" required></textarea>
+                    <div>
+                        <input class="boton" type="submit" value="Enviar">
+                        <input class="boton" type="reset" value="Cancelar">
+                    </div> 
+                </form>
             </div>
-           
-        
+        </section>
+        <div class="ubicación" id="Ubicacion">
+            <h2>Ubicación</h2>
+        </div>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7998353755574!2d-68.42473043710504!3d-34.583931005091664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9679a803b580fc7f%3A0x84595151765381ac!2sBodegas%20Bianchi!5e0!3m2!1ses-419!2sar!4v1716935464246!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
+        </div>
     </footer>
-    <script src="JS/bianchi.js" type="module"></script>
-    
+    <script src="JS/bianchi.js"></script>  
 </body>
 </html>

@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0; 
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: "Balsamiq Sans"
+}
+nav{
+    background-color: black;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu li{
+    width: 25%;
+    list-style: none;
+}
+
+#elementMenuFlotante{
+    position: relative;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+    font-size: 20px;
+}
+.menu li a:hover{
+    color:rgb(240, 163, 70) ;
+    background-color: wheat;
+}
+.subMenu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 3rem;
+    width: 100%;
+    background-color: black;
+}
+#elementMenuFlotante:hover > ul{
+    display: flex;
+}
+.subMenu li{
+    width: 100%;
+}
+.titleBodega{
+    background-color: black;
+    padding: 40px;
+}
+.experiencias{
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    padding: 40px;
+}
+.bodega{
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+}
+.bodega img{
+    max-width: 100%;
+    width: 90%;
+    height: 80vh;
+}
+.visita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    padding-top: 2rem;
+}
+.descripción{
+    padding:  35px;
+}
+.text{
+    width: 45%;
+}
+.img {
+    width: 450px;
+    height: 280px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.img:hover{
+    transform: scale(1.1);
+}
+h1{
+    font-size: 30px;
+    color: rgb(240, 163, 70);
+}
+h2{
+    color: rgb(240, 163, 70);
+}
+p{
+    font-size: 20px;
+    color: wheat;
+}
+.bici, .crea, .picada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.contact{
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    padding: 40px;
+} 
+.icono{
+    color: white;
+    background-color: black;
+    padding: 30px;
+    font-size: 27px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.icono a{
+    text-decoration: none;
+    color: wheat;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.form{
+    grid-column: 2/3;
+    grid-row:1/3 ;
+    width: 100%;
+    height: 25rem;
+    background-color: wheat;
+    color:  rgb(240, 163, 70);
+    font-size: 20px;
+}
+.form h2{
+    font-size: 25px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.control{
+    width: 85%;
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 3px solid  rgb(240, 163, 70);
+    font-size: 20px;
+    color: white;
+}
+.controlTextTarea{
+    width: 85%;
+    resize: none;
+    height: 8rem;
+    margin-bottom: 1rem;
+    color: black;
+    padding: 1rem;
+}
+.boton{
+    background: black;
+    padding:7px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid  rgb(240, 163, 70);
+}
+.boton:hover{
+    background: white;
+    color: rgb(240, 163, 70) ;
+}
+.contacto{
+    display: flex;
+    align-items: center;
+    background-color:black;
+    padding: 30px;
+}
+.ubicación{
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    padding: 40px;
+}
+.mapa{
+    background-color: black;
+    padding: 20px;
+}
+@media (max-width: 600px){
+    .menu li a, .subMenu li a{
+        font-size: 13px;
+    }
+    .bodega{
+        height: 50vh;
+    }
+    .bodega img{
+        height: 18rem;
+    }    
+    h1{
+        font-size: 20px;
+    }
+    .img{
+        width: 80%;
+        height: 80%;
+    }
+    p{
+        font-size: 14px;
+    }
+    .form{
+        grid-column: 1/2;
+        grid-row: 3/6 ;
+    } 
+    .icono{
+        font-size: 20px;
+        padding: 0%;  
+    }
+    .form h2{
+        font-size: 18px;
+    }  
+    .iframe{
+        width: 300px;
+        height: 200px;
+    } 
+    .control{
+        font-size: 15px;
+    }
+    .boton{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px){
+    .visita, .bici, .crea, .picada{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bici, .picada{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .text{
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px){
+    .contacto{
+        flex-direction: column;
+    }
+}

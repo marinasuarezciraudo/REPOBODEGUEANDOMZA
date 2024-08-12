@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="shortcut icon" href="./imag/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/chandon.css">
+    <title>Chandon by Bodegueando</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li id="elementMenuFlotante">
+                    <a href="#Nosotros">Nosotros</a>
+                    <ul class="subMenu">
+                        <li><a href="#GrupoLVMH">Grupo LVMH</a></li>
+                        <li><a href="#UnidadesDeNegocio">Unidades de Negocio</a></li>
+                        <li><a href="#Pasion">Pasión</a></li>
+                    </ul>
+                </li>
+                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="#Ubicacion">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="titleBodega">
+            <h1>Bodega Chandon</h1>
+        </div>
+        <div class="bodega">
+            <img src="imag/chandonBanner.jpg" alt="logo de bodegas Chandon">
+        </div>
+        <div class="experiencias" id="Nosotros">
+            <h2>Nosotros</h2>
+        </div>
+        <section id="GrupoLVMH" class="visita">
+            <div>
+                <img src="imag/chandon1.jpg" alt="viñedo" class="img">
+            </div>
+            <div class="text">
+                <h2>Grupo LVMH</h2>
+                <p class="descripción">Pertenecer al grupo LVMH nos brinda un legado de tradición y saber hacer de casi 300 años de trayectoria en la elaboración de Vinos & Espumantes, y nos convierte en líderes mundiales, con un expertise único en nuestro país.</p>
+            </div>
+        </section>
+        <section id="UnidadesDeNegocio" class="bici">
+            <div class="text">
+                <h2>Unidades de Negocio</h2>
+                <p class="descripción">En Argentina, la compañía está conformada por dos unidades de negocio: Chandon Argentina, situada en Mendoza al pie de la cordillera de los Andes, dedicada a la elaboración y abastecimiento de nuestros productos a distintos mercados alrededor del mundo. Moët Hennessy Argentina, ubicada en la capital de nuestro país, en Buenos Aires, dedicada al desarrollo de nuestras marcas y la comercialización de las mismas.</p>
+            </div>
+            <div>
+                <img src="imag/chandon2.jpg" alt="copas de vino" class="img">
+            </div>        
+        </section>
+        <section id="Pasion" class="crea">
+            <div>
+                <img src="imag/chandon3.jpg" alt="viñedo" class="img">
+            </div>
+            <div class="text">
+                <h2>Pasión</h2>
+                <p class="descripción">La pasión por la excelencia, calidad, innovación, actitud de liderazgo y entrepreneurship son algunos de los valores claves que acompañan, tanto a nuestras marcas como a nuestra gente.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact" id="Contacto">
+            <h2>Contacto</h2>
+        </div>
+        <section class="contacto">
+            <div>
+                <div class="icono">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+54 9 261 15 485 9656">+54 9 261 15 485 9656</a>
+                </div>
+                <div class="icono">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:turismo@bodegaschandon.com">turismo@bodegaschandon.com</a>
+                </div>
+            </div>
+            <div class="form">
+                <h2>Formulario de Consulta</h2>
+                <form action="" id="form-bchandon">
+                    <input class="control" type="text" name="Nombre y Apellido" placeholder="Ingrese su Nombre y Apellido" id="nombre" required>
+                    <input class="control" type="email" name="Email" placeholder="Ingrese su Email" id="email" required>
+                    <textarea class="controlTextTarea" name="Mensaje" placeholder="Ingrese su mensaje" id="textareaMensaje" required></textarea>
+                    <div>
+                        <input class="boton" type="submit" value="Enviar">
+                        <input class="boton" type="reset" value="Cancelar">
+                    </div> 
+                </form>
+            </div>
+        </section>
+        <div class="ubicación" id="Ubicacion">
+            <h2>Ubicación</h2>
+        </div>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13363.537925150733!2d-68.8893822!3d-33.1383993!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e7630bda7115f%3A0x5f5372bc1a436dae!2sBodegas%20Chandon!5e0!3m2!1ses-419!2sar!4v1722555404325!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <script src="JS/bchandon.js"></script>  
+</body>
+</html>
